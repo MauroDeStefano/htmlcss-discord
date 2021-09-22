@@ -11,13 +11,10 @@
 }
 
 .btn{
-  font-size: 14px;
-  color: black;
-  padding: 10px 15px;
   background-color: white;
-  text-decoration: none;
-  border-radius: 40px;
 }
+
+/********** HEADER **************/
 
 header{
   background-color: #3161E0;
@@ -31,7 +28,7 @@ header{
   margin: auto;
 }
 
-.logo, nav, .container .btn{
+.logo, nav, .btn{
   float: left;
 }
 
@@ -56,11 +53,10 @@ header{
 .menuul{
   float: left;
   text-align: center;
-  margin: auto 0
-  ;
+  margin: auto 0;
 }
 
-.menu ul li a, .btn a{
+.menu ul li a, .btn{
   list-style: none;
   text-decoration: none;
 }
@@ -72,7 +68,6 @@ header{
   text-decoration: none;
 }
 
-
 #accedi{
-  width: 130px;
+  float: left;
 }
