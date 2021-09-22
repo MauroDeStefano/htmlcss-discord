@@ -10,8 +10,16 @@
   clear: both;
 }
 
+body{
+  font-family:Helvetica, sans-serif;
+}
+
 .btn{
   background-color: white;
+  display: inline-block;
+  padding: 1px 12px;
+  border-radius: 25px;
+  color: black;
 }
 
 /********** HEADER **************/
@@ -20,6 +28,7 @@ header{
   background-color: #3161E0;
   height: 100px;
   line-height: 100px;
+  
 }
 
 .container{
@@ -28,20 +37,21 @@ header{
   margin: auto;
 }
 
-.logo, nav, .btn{
+.logo, nav, #accedi{
   float: left;
 }
 
-.container .logo{
+.container .logo img{
   height: 100%;
-  position: relative;
+  vertical-align: middle;
 }
 
 .menu img{
-  position: absolute;
+  vertical-align: middle;
+  /* position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
 }
 
 .menu{
@@ -66,8 +76,12 @@ header{
   padding: 0 15px;
   list-style: none;
   text-decoration: none;
+  color: white;
 }
 
-#accedi{
-  float: left;
+.menu ul li a:visited {
+  color: #fff;
 }
+
+
+
