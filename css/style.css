@@ -60,10 +60,6 @@ header{
 
 .menu img{
   vertical-align: middle;
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
 }
 
 .menu{
@@ -137,30 +133,26 @@ header{
 
 /************** TESTO ED IMMAGINI **************/
 
-
-
-.color-bg .bg:nth-child(odd){
+.color-bg .bg:nth-child(even){
   background-color: #9b9393;
   width: 100vw;
 }
 
-.image, .content{
+ .content, .image{
   float: left;
-  vertical-align: middle;
-  margin-bottom: 100px;
+  margin: 20px;
 }
 
-.image img{
-  width: 80%;
-  text-align: center;
+.image{
+  width: 60%;
 }
 
 .content{
-  padding: 40px 0 0 30px;
-  width: 300px;
+  width: 30%;
+  margin-top: 55px;
 }
 
-.content h1{
+/* .content h1{
   font-size: 40px;
   margin-bottom: 15px;
 }
@@ -169,3 +161,7 @@ header{
   font-size: 12px;
   line-height: 20px;
 }
+
+.content.left .image img{
+  margin-left: 150px; 
+} */
