@@ -10,40 +10,69 @@
   clear: both;
 }
 
+.btn{
+  font-size: 14px;
+  color: black;
+  padding: 10px 15px;
+  background-color: white;
+  text-decoration: none;
+  border-radius: 40px;
+}
+
 header{
   background-color: #3161E0;
   height: 100px;
-  width: 100%;
+  line-height: 100px;
 }
 
 .container{
   width: 90%;
   max-width:1080px;
   margin: auto;
-  padding: 30px 0;
 }
 
-.container .logo img{
-  vertical-align: middle;
+.logo, nav, .container .btn{
+  float: left;
 }
 
-nav ul, nav ul li, .logo .btn, .logo, .menu, .btn{
-  display: inline-block;
+.container .logo{
+  height: 100%;
+  position: relative;
 }
-/* 
-nav ul{
-  width: calc (100% - 200px);
+
+.menu img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.menu{
+  width: calc(100% - 200px);
   text-align: center;
-} */
+}
 
-sistemare! 
 
-nav ul li{
-  margin-left: 50px;
+.menuul{
+  float: left;
+  text-align: center;
+  margin: auto 0
+  ;
+}
+
+.menu ul li a, .btn a{
   list-style: none;
   text-decoration: none;
 }
 
-.btn{
-  text-align: right;
+.menu ul li{
+  display:inline-block;
+  padding: 0 15px;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+#accedi{
+  width: 130px;
 }
