@@ -25,6 +25,11 @@ body{
   color:black ;
 }
 
+#adventure-button{
+  background-color: #8EA1E2;
+  color: white;
+}
+
 .big{
   padding: 10px 20px;
 }
@@ -41,6 +46,7 @@ body{
 }
 
 /********** HEADER **************/
+
 
 header{
   background-color: #3161E0;
@@ -133,7 +139,7 @@ header{
 
 /************** TESTO ED IMMAGINI **************/
 
-.color-bg .bg:nth-child(even){
+.color-bg .bg:nth-child(odd){
   background-color: #9b9393;
   width: 100vw;
 }
@@ -152,16 +158,94 @@ header{
   margin-top: 55px;
 }
 
-/* .content h1{
-  font-size: 40px;
-  margin-bottom: 15px;
+.full-screen {
+  float: none;
+  width: 100%;
+  text-align: center;
 }
 
-.content p{
-  font-size: 12px;
-  line-height: 20px;
+.full-screen h1{
+  line-height: 100px;
 }
 
-.content.left .image img{
-  margin-left: 150px; 
-} */
+.full-screen p {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.adventure h2{
+  background-image: url(../img/stars.svg);
+  width: 40%;
+  margin: 10px auto 30px auto;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.adventure div a{
+  background-color: #8EA1E2;
+  width: 100%;
+
+}
+
+/************** FOOTER ***************/
+
+footer{
+  background-color: #23272A ;
+  height: 600px;
+  color: white;
+  padding-top: 50px;
+}
+
+.footer-list {
+  float: left;
+}
+
+.important, .foot div h1 {
+  color: #7289DA;
+}
+ 
+.footer-list.title{
+  width: 30%;
+}
+
+.footer-list.title h1{
+  margin-bottom: 25px;
+}
+
+
+.footer-list.list{
+  width: 15%;
+  list-style: none;
+  padding-bottom: 25px;
+  margin-left: 15px;
+}
+
+footer div ul li {
+  list-style: none;
+}
+
+footer div ul li a{
+  text-decoration: none;
+  color: white;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.fas.fa-chevron-down{
+  font-size: 10px;
+  vertical-align:top
+}
+
+.container.foot{
+  margin-bottom: 50px;
+  border-bottom: 2px solid #7289DA;
+}
+
+.ita-flag{
+  width: 22px;
+}
+
+.social{
+  
+}
