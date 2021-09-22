@@ -99,6 +99,7 @@ header{
   font-size: 12px;
 }
 
+/************ MAIN **************/
 /*********** JUMBOTRON ************/
 
 .jumbotron{
@@ -132,4 +133,39 @@ header{
 
 .options span{
   margin: 0 12px;
+}
+
+/************** TESTO ED IMMAGINI **************/
+
+
+
+.color-bg .bg:nth-child(odd){
+  background-color: #9b9393;
+  width: 100vw;
+}
+
+.image, .content{
+  float: left;
+  vertical-align: middle;
+  margin-bottom: 100px;
+}
+
+.image img{
+  width: 80%;
+  text-align: center;
+}
+
+.content{
+  padding: 40px 0 0 30px;
+  width: 300px;
+}
+
+.content h1{
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.content p{
+  font-size: 12px;
+  line-height: 20px;
 }
