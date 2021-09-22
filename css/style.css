@@ -139,8 +139,9 @@ header{
 
 /************** TESTO ED IMMAGINI **************/
 
+
 .color-bg .bg:nth-child(odd){
-  background-color: #9b9393;
+  background-color: #F6F6F6;
   width: 100vw;
 }
 
