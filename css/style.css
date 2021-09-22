@@ -247,5 +247,30 @@ footer div ul li a{
 }
 
 .social{
-  
+  margin-top: 35px;
+  font-size: 25px;
+}
+
+.social i{
+  margin-right: 15px;
+}
+
+.container.end-link{
+  position: relative;
+  width: 100%;
+  line-height: 35px;
+}
+
+.container.end-link img{
+  vertical-align: middle;
+}
+
+.container.end-link a{
+  background-color: #7289DA;
+  color: white;
+}
+
+.container.end-link .btn{
+  position: absolute;
+  right: 0%;
 }
