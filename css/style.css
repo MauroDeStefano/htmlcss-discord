@@ -1,0 +1,49 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header{
+  background-color: #3161E0;
+  height: 100px;
+  width: 100%;
+}
+
+.container{
+  width: 90%;
+  max-width:1080px;
+  margin: auto;
+  padding: 30px 0;
+}
+
+.container .logo img{
+  vertical-align: middle;
+}
+
+nav ul, nav ul li, .logo .btn, .logo, .menu, .btn{
+  display: inline-block;
+}
+/* 
+nav ul{
+  width: calc (100% - 200px);
+  text-align: center;
+} */
+
+sistemare! 
+
+nav ul li{
+  margin-left: 50px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.btn{
+  text-align: right;
+}
