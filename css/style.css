@@ -139,10 +139,34 @@ header{
 
 /************** TESTO ED IMMAGINI **************/
 
+.bg{
+  position: relative;
+}
 
-.color-bg .bg:nth-child(odd){
-  background-color: #F6F6F6;
+.color-bg .bg:nth-child(even){
+  background-image: linear-gradient(#F2F2F2, white);
   width: 100vw;
+  
+}
+
+.waves{
+  width: 100vw;
+  height: 100px;
+  background-image: url("../img/wave.svg");
+  filter: invert(95%);
+  background-size: cover;
+  text-align: center;
+  
+}
+
+.wave1{
+  position: absolute;
+  top: -80px;
+}
+
+.wave2{
+  position: absolute;
+  top:950px;
 }
 
  .content, .image{
